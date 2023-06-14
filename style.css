@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-toggler-icon {
+    background-image: url(images/navbar.svg);
+}
+
+.logo {
+    color: #6070FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.heading {
+    background-image: url('images/header-shapes\ mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 128px 24px 136px 24px;
+}
