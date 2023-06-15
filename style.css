@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
-
-
 *{
     list-style: none;
     text-decoration: none;
@@ -14,6 +12,9 @@
     background-image: url(images/navbar.svg);
 }
 
+ body {
+    background: #F7F7F9;
+ }
 .logo {
     color: #6070FF;
     font-family: 'Poppins', sans-serif;
@@ -25,10 +26,71 @@
 }
 
 .heading {
-    background-image: url('images/header-shapes\ mobile.png');
+    background-color: #ffffff;
+    background-image: url('images/Headerbg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 128px 24px 136px 24px;
+    border-bottom-left-radius: 80px 80px;
+}
+
+@media (min-width: 992px) {
+    .heading {
+        padding: 15.9em 16.25em;
+    }
+}
+.works {
+    padding: 0 24px 114px 24px;
+}
+
+@media (min-width: 992px) {
+    .works {
+        padding: 8.875em;
+    }
+}
+.work-list {
+    background-color: #ffffff;
+    margin-top: 88px;
+}
+
+
+.tech-list li {
+    padding: 4px 12px;
+    background: #EBEBFF;
+    border-radius: 8px;
+}
+
+.about-me {
+    padding: 128px 24px 136px 24px;
+}
+
+@media (min-width: 992px) {
+    .about-me {
+        padding: 8.875em 10.375em;
+    }
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.language{
+    padding-top: 48px;
+}
+
+.con {
+    background-color: #6070FF;
+    background-image: url('images/contactformbackground.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 128px 24px 136px 24px;
+    border-top-left-radius: 80px 80px;
+}
+
+@media (min-width: 992px) {
+    .con {
+        padding: 8.875em 10.375em;
+    }
 }
 
 .title{
